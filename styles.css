@@ -1,0 +1,82 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f0e3; /* Fondo beige claro */
+    max-width: 1200px; /* Máximo ancho de la página */
+    margin: 0 auto; /* Centrar la página en el centro del viewport */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #d9534f; /* Rojo oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el aside */
+aside {
+    width: 200px;
+    padding: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #CE6C37; /* Rojo oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Aplicar relleno (padding) al elemento div */
+div {
+    padding: 20px; /* Agrega 20 píxeles de relleno en todos los lados */
+}
+
+/* Aplicar relleno al encabezado */
+header {
+    padding: 10px; /* Agrega 10 píxeles de relleno en todos los lados */
+}
+
+/* Aplicar relleno al pie de página */
+footer {
+    padding: 15px; /* Agrega 15 píxeles de relleno en todos los lados */
+}
